@@ -124,3 +124,41 @@ header {
 .mode2{
     margin: 100px 0;
 }
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(192, 100%, 9%);
+    color:#fff;
+    padding: 50px 35px 25px;
+}
+
+.title3 {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 20px 0 20px;
+}
+
+.paragraph3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 20px 0 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5;
+}
+
+.btn-footer {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    background-color:hsl(322, 100%, 66%);
+    color:  #fff;
+    padding: 12px 40px;
+    border:hsl(322, 100%, 66%) solid 1px;
+    border-radius: 5px;
+    margin: 20px 0 20px 40%;
+}
+
+.input-footer {
+    width: 80%;
+    height: 25px;
+    margin: 15px 20px 10px 20px;
+    border-radius: 5px;
+}
