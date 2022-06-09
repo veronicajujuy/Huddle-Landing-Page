@@ -24,7 +24,7 @@ header {
     border:hsl(322, 100%, 66%) solid 1px;
     border-radius: 25px;
 }
-.section1 {
+ .section1 {
     text-align: center;
 }
 .title {
@@ -132,6 +132,12 @@ footer {
     padding: 50px 35px 25px;
 }
 
+
+.section2 {
+    text-align: center;
+    margin: 100px 0;
+}
+
 .title3 {
     font-family: 'Poppins', sans-serif;
     margin: 15px 20px 0 20px;
@@ -165,9 +171,9 @@ footer {
 
 .logo-footer {
     display:block;
-    width: 120%;
+    width: 100%;
     text-align: start;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .container-footer {
@@ -181,6 +187,104 @@ footer {
     margin: 15px 10px 5px 0;
 }
 
-.inside-container > span {
-    margin-left: 20px;
+
+.container-logos {
+    padding-bottom: 50px;
+}
+
+.icons {
+    margin-right: 20px;
+} 
+
+@media (min-width:385px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .logo {
+        width: 200px;
+        margin: auto;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .paragraph1{
+        font-size: 1.2rem;
+        margin: 20px 30%;
+    }
+    .image-mockup{
+        display: block;
+        width: 70%;
+        max-width: 1500px;
+        margin: 50px auto;
+    }
+    .big-numer{
+        font-size: 6rem;
+    }
+    .message-below{
+        font-size: 1.2rem;
+    }
+    .image-icon {
+        margin-right: 200px;
+        width: 50px;
+    }
+    .backgroundtop{
+        display: none;
+    }
+    .backgroundbottom{
+        display: none;
+    }
+
+    .backgroundtopdesktop {
+        width:100%;
+        display: block;
+    }
+    .backgroundbottomdesktop {
+        width:100%;
+        display: block;
+    }
+    .images-txt {
+        width: 55%;
+        padding: 25px 75px;
+    }
+    .mode1{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mode2{
+        display: flex;
+        align-items: center;
+    }
+    .title2 {
+        font-size: 2.5rem;
+        margin: 30px 25px;
+    }
+
+    .paragraph2{
+        font-size: 1.2rem
+    }
+    .text-aside {
+        margin: auto 60px;
+        text-align: left;
+    }
+
+    .section2 {
+        margin: 150px auto;
+    }
+
+    .btn-text{
+        font-size: 1rem;
+        padding: 15px 55px;
+        border:hsl(322, 100%, 66%) solid 1px;
+        border-radius: 25px;
+        margin: 20px auto;
+    }
+    .foot {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
