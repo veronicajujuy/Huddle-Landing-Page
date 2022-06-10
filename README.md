@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/veronicajujuy/Huddle-Landing-Page](https://github.com/veronicajujuy/Huddle-Landing-Page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://your-live-site-url.com](https://huddle-landing-page-two-silk.vercel.app/)
 
 ## My process
 
