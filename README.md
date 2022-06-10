@@ -50,7 +50,6 @@ Users should be able to:
 At the making of this page i learn how to size in more of two tipes of screens. And how to show an image for a determinate screen width and hidden other.
 
 
-
 ## Author
 
 - Frontend Mentor - [@veronicajujuy](https://www.frontendmentor.io/profile/veronicajujuy)
