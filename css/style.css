@@ -97,6 +97,9 @@ header {
     margin: 0 auto;
     display: block;
 }
+.backgroundtopdesktop {
+    display: none;
+}
 
 .images-txt{
     width: 80%;
@@ -119,6 +122,10 @@ header {
 .backgroundbottom{
     margin: 0 auto;
     display: block;
+}
+
+.backgroundbottomdesktop {
+    display: none;
 }
 
 .mode2{
@@ -196,6 +203,7 @@ footer {
     margin-right: 20px;
 } 
 
+
 @media (min-width:385px) {
     header {
         display: flex;
@@ -246,8 +254,8 @@ footer {
         display: block;
     }
     .images-txt {
-        width: 55%;
-        padding: 25px 75px;
+        width: 45%;
+        padding: 25px 5%;
     }
     .mode1{
         display: flex;
@@ -268,7 +276,7 @@ footer {
         font-size: 1.2rem
     }
     .text-aside {
-        margin: auto 60px;
+        margin: auto 5% auto 10%;
         text-align: left;
     }
 
@@ -286,5 +294,46 @@ footer {
     .foot {
         display: flex;
         flex-direction: row-reverse;
+        margin: 20px 50px;
+    }
+    .paragraph3{
+        font-weight: 400;
+        margin-top: 25px;
+        margin-right: 40%;
+    }
+    .input-footer{
+        width: 40%;
+        height: 45px;
+        display: inline-block;
+    }
+    .btn-footer {
+        display: inline-block;
+        margin: 30px 0;
+    }
+}
+
+/* No less than 400px, no greater than 900px */
+@media (min-width:385px) and (max-width:1100px) {
+    .paragraph1{
+        margin: 50px 10%;
+    }
+
+    .mode1,.mode2 {
+        display:flex;
+        flex-direction: column;
+    }
+    .title2 {
+        font-size: 1.5rem;
+    }
+    .paragraph2 {
+        font-size: 1rem;
+    }
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-footer{
+        margin-top: 50px;
     }
 }
